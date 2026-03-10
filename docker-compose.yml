@@ -1,0 +1,8 @@
+services:
+  app:
+    image: docker-version-control:${IMAGE_TAG:-latest}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: docker-version-control
+    restart: unless-stopped
