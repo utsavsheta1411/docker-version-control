@@ -1,1 +1,1 @@
-console.log('Hello from docker-version-control');
+console.log('Hello from docker-version-control v1.0.0');
