@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    image: docker-version-control:latest
+    container_name: docker-version-control
+    restart: unless-stopped
